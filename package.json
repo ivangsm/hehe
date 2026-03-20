@@ -1,0 +1,50 @@
+{
+  "name": "hehe",
+  "version": "2.0.0",
+  "description": "An ultra-lite, 100% WHATWG-compliant HTML entity encoder/decoder. Optimized for size and performance.",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "bun test",
+    "build": "tsup src/index.ts --format cjs,esm --dts --clean --minify",
+    "dev": "tsup src/index.ts --format cjs,esm --watch --dts",
+    "generate": "bun scripts/generate-data.ts",
+    "lint": "biome lint .",
+    "format": "biome format --write ."
+  },
+  "keywords": [
+    "html",
+    "entities",
+    "decode",
+    "encode",
+    "hehe",
+    "whatwg",
+    "typescript",
+    "ultra-lite"
+  ],
+  "author": "Iván Salazar <hi@ivansalazar.dev>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ivansalazar/hehe.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ivansalazar/hehe/issues"
+  },
+  "homepage": "https://github.com/ivansalazar/hehe",
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@types/node": "^22.13.9",
+    "entities": "^8.0.0",
+    "html-entities": "^2.6.0",
+    "jsdom": "^26.0.0",
+    "jsesc": "^3.1.0",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.2"
+  }
+}
