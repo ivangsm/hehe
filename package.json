@@ -1,6 +1,6 @@
 {
   "name": "@ivangsm0/hehe",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "An ultra-lite, 100% WHATWG-compliant HTML entity encoder/decoder. Optimized for size and performance.",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
