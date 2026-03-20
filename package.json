@@ -1,5 +1,5 @@
 {
-  "name": "hehe",
+  "name": "@ivangsm0/hehe",
   "version": "2.0.0",
   "description": "An ultra-lite, 100% WHATWG-compliant HTML entity encoder/decoder. Optimized for size and performance.",
   "main": "./dist/index.cjs",
@@ -31,12 +31,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ivansalazar/hehe.git"
+    "url": "git+https://github.com/ivangsm0/hehe.git"
   },
   "bugs": {
-    "url": "https://github.com/ivansalazar/hehe/issues"
+    "url": "https://github.com/ivangsm0/hehe/issues"
   },
-  "homepage": "https://github.com/ivansalazar/hehe",
+  "homepage": "https://github.com/ivangsm0/hehe",
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
     "@types/node": "^22.13.9",
